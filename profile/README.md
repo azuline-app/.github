@@ -20,4 +20,5 @@ azuline is a free, open-source app for artists. It's in early development, so th
 - Bugs and ideas: open an issue in the repository the problem belongs to.
 - Security problems: report them privately, as described in [SECURITY.md](https://github.com/azuline-app/.github/blob/main/SECURITY.md).
 - News and updates: [@azulineapp](https://x.com/azulineapp) on X.
+- Website: [azuline.app](https://azuline.app)
 - Anything else: hello@azuline.app
