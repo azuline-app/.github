@@ -1,0 +1,49 @@
+name: Bug report
+description: Something in azuline doesn't work the way it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for reporting. Security problems go to security@azuline.app instead of an issue.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open …
+        2. Drag …
+        3. …
+  - type: input
+    id: version
+    attributes:
+      label: azuline version
+      description: The version number, or the date you downloaded it.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Where it happens
+      multiple: true
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - iPhone or iPad
+        - Android
+        - Browser extension
+  - type: input
+    id: drawing-app
+    attributes:
+      label: Drawing app, if it's involved
+      placeholder: Clip Studio Paint 3.0, Krita 5.2 …
+  - type: textarea
+    id: files
+    attributes:
+      label: Screenshots or logs
+      description: Drag images here. Check they don't show anything private.
