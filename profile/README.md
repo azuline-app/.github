@@ -9,7 +9,7 @@ azuline is a free, open-source app for artists. It's in early development, so th
 
 ## What we promise
 
-- **We will never add generative AI to azuline.** It never generates, edits, upscales or completes artwork.
+- **No AI makes, edits or trains on art in azuline.** It never generates, edits, upscales or completes artwork.
 - **We don't train on your art.** Nothing in your library is used to train any model, and we never sell or
   license anyone's data.
 - **Files stay on your computer.** Images leave it only when you share something or turn on sync, and then only
